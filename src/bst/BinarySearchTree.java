@@ -145,6 +145,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	public void inOrder() {
 		System.out.println("InOrder test commit");
 		inOrderRecurse(root); 
+		System.out.println();
 		inOrderStack();
 	}
 	
